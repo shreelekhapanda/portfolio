@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="SHS-S-logo-redrawn-K-and-white-fill.png">
+	<link rel="stylesheet" type="text/css" href="stylefolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Vacayfy- Your next vacation sorted</title>
+</head>
+<body>
+	<header>
+    <div class="w3-top">
+      <div class="w3-white w3-card" id="myNavbar" style="padding-left: 10%; box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2)">
+        <a href="home.html" class="w3-bar-item w3-button w3-wide">SHREELEKHA</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small" style="padding-right: 10%">
+          <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-button" title="Notifications"><i class="fa fa-th"></i> WORKS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+            <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+            <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          	<a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+            <a href="others.html" class="w3-bar-item w3-button">Others</a>
+          </div>
+        </div>
+          <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button" style="color: white">WORKS&nbsp; <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+          <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          <a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+          <a href="others.html" class="w3-bar-item w3-button">Others</a>
+        </div>
+      </div>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+  </header>
+	<main>
+		<img src="images/tripmaker.png" alt="An app for your upcoming trip">
+		<h1>Vacayfy- Your next vacation sorted</h1>
+		<div class="trip">
+		<h4>OVERVIEW</h4>
+			<p>Today there are many apps and websites out there which promise to help you with your trips; right from booking tickets to booking hotel rooms, suggesting fun activities at your destination spot, suggesting cuisines and what not. But sadly all of these features aren't available together on any major app today. Also, there are hardly any app to suggest you holiday destinations in case of a dillemma. What if a single app could do everything you need before, during and after your trip! Vacayfy serves this purpose, and has many other exciting features as well.<br></p>
+			
+			<div class="experience">
+		            <blockquote>
+		                <p>A little about my experience... I love travelling a lot!! And on every trip, I come back and ponder about how well it could have been, if I had planned it wisely beforehand. I end up wasting a lot of time actually. Yes, I do use apps. I stick to the MakeMyTrip app for booking tickets and Oyo for booking rooms and for planning, Google is to the rescue! Huh! Too much work. Always wished if there was some way, all this could be done in one place easily!”</p>
+		            </blockquote>
+		    </div> 
+		    <div class="dot">
+				<h6>. &nbsp;&nbsp;. &nbsp;&nbsp;.</h6>
+			</div>
+
+		<h3>The Process</h3>
+			<p>After recollecting my own experiences with travel apps time and again, I got started with this project immediately. I approached the project using the <strong>Double Diamond model</strong> of Design Thinking, which has four different phases:Discover, Define, Develop, Deliver.</p><br>
+			<figure>
+				<img src="images/designmethodology.png" alt="design methodology" width="720">
+				<figcaption>Double Diamond model of Design Thinking</figcaption>
+			</figure>
+			
+		<h2>Phase 1: DISCOVER</h2>
+		<p>Keeping my own experiences in mind, I had multiple assumptions about a normal user in the beginning. In order to validate those, an extensive <strong>User Research</strong> stage was essential. Through this, I was able to unfathom about the different categories of travellers, their dependancy on apps, their expectations regarding travel apps and their pain points pertaining to the apps available presently. I gathered qualitative and quantitative data using the following methods:</p>
+
+		<h3>Online Surveys-</h3><p>In order to gather preliminary data, it was important to gather as much data as possible. This couldn't be possible by meeting people individually. Therefore, I carried out an online survey using <em>Google Forms</em> and forwarded it via mail and WhatsApp to a varied group of (50) users belonging to different walks of life. This helped me gather insights into the following:</p>
+			<figure>
+				<img src="images/surveytm.png" alt="survey insights">
+				<figcaption>Insights from Online Survey</figcaption>
+			</figure>		
+		
+		<h3>User Interviews-</h3><p>To get a detailed insight into the user's experiences and to understand their goals better, additionally I interviewed 10 different users. They were chosen from different walks of life. In addition to the questions asked in the surveys, they were also asked the following descriptive or open-ended questions:
+			<figure>
+				<img src="images/tminterview.png" alt="interview questions">
+				<figcaption>Draft Questions for the User Interview</figcaption>
+			</figure>
+
+		<h2>Phase 2: DEFINE</h2>
+		<p>From the User Research phase, and the insights obtained from interviews and surveys, I was able to define the target audience. There were four major groups of people, who would use Vacayfy.  They are demonstrated with the help of following User Persona types:</p>
+	</div>
+
+		<div class="persona">
+			<figure>
+				<img src="images/per1.png" alt="My First User Persona- Daniella-The unconventional avid traveller">
+				<img src="images/per2.png" alt="My Second User Persona- Dhruv-The family man!">
+				<img src="images/per3.png" alt="My Third User Persona- Shashank-The frequent business traveller">
+				<img src="images/per4.png" alt="My Fourth User Persona- Rishita-The religious foodie!">
+				<figcaption>Four different User Personas</figcaption>
+			</figure>
+		</div>
+
+		<div class="trip">
+			<p>Throughout rest of the Design process, I ensured to keep in mind the goals, expectations and frustrations of the above four User Personas, Daniella, Dhruv, Shashank and Rishita.</p>
+			<div class="dot">
+				<h6>. &nbsp;&nbsp;. &nbsp;&nbsp;.</h6>
+			</div>
+			
+				<h3>The Customer Journey</h3>
+				<p>A crucial step in this phase was mapping the journey of my users through the entire process of travelling- before, during and after a trip.<br>
+				This provided me more insights into the emotions and perceptions of the users, and their points of breakdown. This, thus, helped me to improve the overall travel experience of the users.</p>
+				<figure>
+					<img src="images/tmcjm.png" alt="The Customer Journey Map, taking example of Dhruv.">
+					<figcaption>Customer Journey Map</figcaption>
+				</figure>
+				<p>Download a PDF version of the Customer Journey Map <a href="tmcjm.pdf" target="_blank">here</a> .</p>
+				<div class="dot">
+					<h6>. &nbsp;&nbsp;. &nbsp;&nbsp;.</h6>
+			    </div>
+				<h3>Storyboarding</h3>
+				<p>This was the most exciting part of the UX stage of the design process. Understanding the story of an average user is crucial to designing. Read the story of Daniella, on her weekend beach getaway!</p>
+		</div>
+
+		<div class="story">
+			<figure>
+					<img src="images/story/tmstory1.png" alt="Daniella is planning for the trip. She wants to go on a beach getaway.">
+					<img src="images/story/tmstory2.png" alt="She found best travel options on the app.">
+					<img src="images/story/tmstory3.png" alt="She arrives at her destination. Goes to the hotel, she had booked.">
+					<img src="images/story/tmstory4.png" alt="She looks on TripMaker app for nearby attractions.">
+					<img src="images/story/tmstory5.png" alt="Through the app, she also finds best deals (cab, bus, etc.) for travelling within the city.">
+					<img src="images/story/tmstory6.png" alt="She goes to enjoy at a beach.">
+					<img src="images/story/tmstory7.png" alt="She finds restaurants of her choice on the app.">
+					<img src="images/story/tmstory8.png" alt="She clicks pics of all the amazing times spent, and shares on her social media pages.">
+					<img src="images/story/tmstory9.png" alt="She goes out shopping with her friends, with suggestions from the app.">
+					<img src="images/story/tmstory10.png" alt="Finally, she leaves the beautiful city, and gets back home with a wonderful experience overall ">					
+					<figcaption>Storyboard</figcaption>
+			</figure>
+		</div>
+
+		<div class="trip">
+			<h3>Defining User Goals</h3>
+			<p>At the end of Phase 2, I was able to define the goals of an average user, and also the goals of specific users, like Daniella, Dhruv, Shashank and Rishita.</p>
+			<ul>
+				<li>The user hates spending too much time planning and searching before travel.</li>
+				<li>The user may not always go on a vacation/ holiday trip- Accomodating urgent requirements of business travellers</li>
+				<li>The user on a vacation wants to make most of the trip and enjoy unique experiences, suited to their preferences.</li>
+			</ul>
+			
+			<div class="dot">
+				<h6>. &nbsp;&nbsp;. &nbsp;&nbsp;.</h6>
+			</div>
+
+			<h2>Phase 3: DEVELOP</h2>
+			<p>This phase included lo-fi prototyping and analysing the task-flow. Before this, I also made a little background research of task-flow in other travel apps, to drive ideation. Then I started right away sketching different app screens. It wasn't a single step. Multiple iterations and realisations led me to arrive at almost-final sketches. Also, I realised how I can reduce the number of screens and how I can make the app more interesting.</p>
+
+			<h3>Sketching UI</h3>
+			<figure class="vsketch">
+				<img src="images/vacaysketch1.png" alt="Sketches of app interfaces">
+				<img src="images/vacaysketch2.png" alt="Sketches of app interfaces">
+				<figcaption>Initial Sketches</figcaption>
+			</figure>
+
+			<p>Level of details at this stage- Write-up was suggestive, icons were mostly given tags and I avoided drawing them at this stage and to represent images, containers were made. Importance was given to the broad-content to be present on screens. </br></p>
+			<div class="dot">
+				<h6>. &nbsp;&nbsp;. &nbsp;&nbsp;.</h6>
+			</div>
+
+			<h3>Wireframing</h3>
+			<p>More details were added at this stage. The writing was almost finalised keeping the potential user in mind, and making the headlines conversational (using 'my', 'you'). The layout was given maximum detail. Icons used were representative and not final at this point. I tried to make the task flow easy and obvious at this point. Images were represented by containers. Colours and Font-styling was avoided to focus more on the User Experience. During this stage, I obtained feedback from pilot users and iterated the wireframes. <br><br> These are some wireframe screens of the app after two rounds of user feedback and iterations.</p>
+	</div>
+			<figure>
+				<img src="images/wireframe1.png" alt="wireframe set1">
+				<img src="images/wireframe2.png" alt="wireframe set2" style="padding-bottom: 2%">
+				<figcaption>Wireframes for the app</figcaption>
+			</figure>
+
+		<div class="trip">
+
+			<p>This is the broad breakdown of tasks in the app, as finalised at the end of this phase.</p>
+			<ol>
+				<li><strong>Before the trip</strong>
+					<ul>
+						<li>Deciding on the best package- allowing a way to customize package, providing relevant filters to search and shortlist packages</li>
+						<li>Let the user decide among the best travel options, suited to their timings</li>
+						<li>Accomodation- Incorporating filters to help users find the perfect stay</li>
+					</ul>
+				</li>
+				<li><strong>During the trip</strong>
+					<ul>
+						<li>Reaching destination- Best travel option to reach hotel, etc.</li>
+						<li>Suggesting attractions and activities- also showing distance, price, route, etc.</li>
+						<li>Suggesting restaurants nearby- incorporating filters to help users find the perfect place based on budget/ cuisine</li>
+						<li>Best options for traveling in and out of the city</li>
+						<li>Helping users in case of emergency- Hospitals, Medicine, Grocery, etc. </li>
+					</ul>
+				</li>
+				<li><strong>After the trip</strong>
+					<ul>
+						<li>Reflecting on the memories, sharing on social media- like, Image gallery by AI.</li>
+						<li>Travelling back- Reminder alarms for flight timings, suggesting best options to travel, etc.</li>
+					</ul>
+				</li>
+			</ol>
+			<p>At the end of this process, I was certain of the features to be incorporated in the app. Also, in order to validate the ease of task flow, it was necessary to obtain feedback from some users.</p>
+
+
+		<h2>Phase 4: DELIVER</h2>
+		<p>This was the final stage of the entire project. At this point, I had a clear idea of my users, their goals, their painpoints, etc. I had made low-fidelity prototypes and made iterations on the basis of feedback from users.</p>
+
+		<h3>User Flow Diagram</h3>
+		<p>After the wireframing stage, this was the final Navigation Architecture or the User Flow of the app.</p>
+	</div>
+		<img src="images/taskflow.png" alt="User Navigation Structure of the app">
+
+
+	<div class="trip">
+		
+		<h3>Branding</h3>
+		<p>Even before User Research, I had already come up with the name <strong>Vacayfy</strong> for my app through an extensive brainstorming process. Now, in this phase, I worked on the logo of the app. For the logo, I decided to keep it simple and neat, possibly a monogram logo which could give the idea of travelling. 
+		Also, at this stage, I chose the colour palette for the app.  Keeping in mind the google app icon guidelines, I designed the below two versions of the logo for Vacayfy app.</p>
+		<div class="logo">
+			<img src="images/V1logo.png" alt="gradient logo on white background">
+			<img src="images/V2logo.png" alt="white logo on gradient background">
+		</div>
+		<h3>Visual Design</h3>
+		<p><strong>Minimalism and Modernism-</strong> These were the two broad concepts upon which the look and feel of the entire app was supposed to be based on. The entire app was based on a minimal, mono-chrome colour pallet, i.e., the interface was primarily designed only using greys (except mages) and then, special components like icons and buttons were given shades of purple-blue, the brand colours.</p>
+
+	</div>
+	<div class="visual">
+			<img src="images/VD1.png" alt="Visual Design-Typography and Buttons">
+			<img src="images/VD2.png" alt="Visual Design- Color Palette and Shadows">
+	</div>
+
+	<h2 style="text-align: center">The final Design</h2>
+	<img src="images/final.png"><br>
+
+	<div class="trip">
+		
+		<h3><br>Conclusion</h3>
+		<p>The entire project as you see now, took me 4 weeks to reach here. I would say, it is not complete yet. Design is always an iterative process. With new trends and developments in the hi-tech world, design keeps progressing with time. In order to validate what I had achieved, I obtained feedback from a group of users, who loved the easy & directive UI of the app. They said they enjoyed a better experience with the app, as compared to the apps they had used. This was my preliminary objective- To offer better solutions to the existing problems, which I believe I was successful in achieving. <br><br>Still I believe I have a lot to work on, like Iconography. This is something which I haven't paid much attention and used conventional ones, in order to proceed with the app. However, they can be made much more interesting, which is something I am working on right now.<br><br>
+
+		Stay tuned. I will soon be uploading the link to my entire prototype.<br><br>
+
+		Hope you liked my work. Thanks for reading!</p>
+	</div>
+
+	</main>
+
+	<div id="preloader"></div>
+
+	  <!-- Vendor JS Files -->
+	  <script src="assets/vendor/jquery/jquery.min.js"></script>
+	  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	  <script src="assets/vendor/php-email-form/validate.js"></script>
+	  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	  <script src="assets/vendor/counterup/counterup.min.js"></script>
+	  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	  <script src="assets/vendor/venobox/venobox.min.js"></script>
+	  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	  <script src="assets/vendor/typed.js/typed.min.js"></script>
+	  <script src="assets/vendor/aos/aos.js"></script>
+
+	  <!-- Template Main JS File -->
+	  <script src="assets/js/main.js"></script>
+
+	<footer id="contact">
+		<!-- particles.js container --> 
+		<div id="particles-js" style="background-color: #165052"></div>
+		<!-- stats - count particles --> 
+		<div class="count-particles"> 
+			<span class="js-count-particles"></span> 
+		</div> 
+		<div class="contact">
+			<h3>Let's connect &amp; create.</h3>
+			<p>Swing by for a cup of coffee, or leave me a message.</p>
+			<a href="mailto:shreelekha199@gmail.com" class="button">Mail me</a>
+		</div>			
+		<div class="copyright">&#169; 2020 This site has been designed and developed by me!</div> 
+	</footer>
+
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+	</script>
+</body>
+</html>

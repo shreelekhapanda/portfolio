@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="SHS-S-logo-redrawn-K-and-white-fill.png">
+	<link rel="stylesheet" type="text/css" href="stylefolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	  <!-- JS, Popper.js, and jQuery -->
+	  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<title>iSWITCH- Intelligent Switchboard Solutions</title>
+	  <style type="text/css">
+	    a:hover {
+	      text-decoration: none;
+	    }
+	  </style>
+	<title>Redesigning Amazon app</title>
+</head>
+<body>
+	<header>
+			<div class="w3-top">
+      <div class="w3-white w3-card" id="myNavbar" style="padding-left: 10%; box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2)">
+        <a href="home.html" class="w3-bar-item w3-button w3-wide">SHREELEKHA</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small" style="padding-right: 10%">
+          <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-button" title="Notifications"><i class="fa fa-th"></i> WORKS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+            <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+            <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          	<a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+            <a href="others.html" class="w3-bar-item w3-button">Others</a>
+          </div>
+        </div>
+          <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button" style="color: white">WORKS&nbsp; <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+          <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          <a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+          <a href="others.html" class="w3-bar-item w3-button">Others</a>
+        </div>
+      </div>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+	</header>
+	<main>
+		<img src="images/amazon_tile.png" alt="amazon app interface redesign" width="800">
+		<h1>I felt the Amazon app needed a massive update!</h1>
+		<div class="trip">
+			<h4>OVERVIEW</h4>
+			<p>The main reason for me to take up this project was to get a practical insight into the UX design process by redesigning a familiar app, which has a poor interface and UX. Amazon app being widely used worldwide, seemed to be the perfect choice serving this purpose. The goal of this project was to identify common usability and accessibilty issues in the app and therefore provide an enjoyable, clutter-free shopping experience even for a first- time user. The expected outcome was a cleaner, minimal, user-friendly interface for the e-commerce app, Amazon.</p>
+			<h3>The Process</h3>
+			<p>At the beginning, it was mandatory for me to plan out the different steps to undertake, keeping in mind the <em>Design thinking</em> principles. The entire process was broadly split into two different stages.</p>
+				<ol>
+					<li><em>Current Design Analysis-</em> Inspecting the current app for usabilty issues and elaborate User research</li>
+					<li><em>Unsolicited Redesign-</em>Suggestions for a better User Experience through a more intuitive User Interface</li>
+				</ol>
+				The process below briefs the iterative designing process followed by me. Scroll down to read about the entire case study.<br>
+			<figure style="text-align: center">
+				<img src="images/amazon_design_process.png" alt="7 phase Design cycle" style="max-width: 720px">
+				<figcaption>7 phase design cycle</figcaption>
+			</figure>
+		
+		<h2>Evaluating the Interface</h2>
+		<p>In this stage, I evaluated the Amazon app screens using the following three methods.</p>
+		<h3>Informal Action Analysis</h3>
+			<p>As apart of this evaluation, I played the role of an user who may or maynot be familiar with the app, in order to empathize with the first-time users as well . I enlisted all steps right from downloading till confirming an order. Following were my findings:</p>
+				<ol>
+					<li>Opening the app for the first time leads you to the signing in screen, however there's an option to skip it all together. Also, an option to create an account.</li>
+					<li>Amidst so much clutter, it is difficult to learn about the categories of products available.</li>
+					<li>The search option is unreliable and doesn't relate to product categories for easy searching.</li>
+					<li>Filter options are clumsy, unorganised and not user-friendly. Many important and product-relevant filter options to aid in a better shopping experience could have been added.</li>
+					<li>While checking out a product, one can't find the "Buy Now" or "Add to cart" options right on the screen. One needs to scroll down and find the buttons.</li>
+					<li>Payment and address options are also poorly organised.</li>
+					<li>Instead of "Swipe to place order", a button to "confirm order" is better.</li>
+					<li>Users should have freedom to cancel ordering go back in case they proceeded to place an order by mistake.</li>
+				</ol><br>
+		<h3>Cognitive Walkthrough</h3>
+			<p>As a customary walkthrough procedure, for each of the major screens in the amazon app, the following 4 questions were asked-</p>
+				<ol>
+					<li>Will the user try and achieve the right outcome?</li>
+					<li>Will the user notice that the correct action is available to them?</li>
+					<li>Will the user associate the correct action with the outcome they expect to achieve?</li>
+					<li>If the correct action is performed; will the user see that progress is being made towards their intended outcome?</li>
+				</ol>
+			<p>At the end of this, I was able to pin-point numerous areas where Amazon app did fail.</p>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/cw1.png" alt="Cognitive Walkthrough Findings">
+				</div>
+				<div class="col-md-6">
+					<img src="images/cw2.png" alt="Cognitive Walkthrough Findings">
+				</div>
+				<div class="col-md-6">
+					<img src="images/cw3.png" alt="Cognitive Walkthrough Findings">
+				</div>
+				<div class="col-md-6">
+					<img src="images/cw4.png" alt="Cognitive Walkthrough Findings">
+				</div>
+			</div>
+				<figcaption>Some User pain points, discovered after the Cognitive Walkthrough</figcaption><br>
+			
+		<h3>Heuristic Evaluation</h3>
+			<p>Heuristics are broad rules of thumb. These qualitative guidelines laid down by Jacob Nielsen prove to be very efficient means of testing the usability of a website or an app.<br> At the end of this evaluation, I found at that the Amazon app was unable to meet most of the guidelines multiple times across its interface.</p>
+			<img src="images/Heuristic.png" alt="Heuristic Evaluation Findings">
+
+		<h2>User Research</h2>
+		<p>This is the most crucial step in the UX process. At the end of this, I expected to learn about the different groups of users, the goals they want to achieve through the app and also, to empathize with their pain points. It is impossible to learn about users without interacting with them, talking or meeting them. So, I carried out this process in four different phases.</p>
+			
+			<h3>Online Surveys-</h3>
+				<p>In order to gather preliminary quantitative and qualitative data, it was important to gather as much data as possible. This couldn't be possible by meeting people individually. Therefore, I carried out an online survey using <em>Google Forms</em> and forwarded it via mail and WhatsApp to a varied group of (50) users belonging to different walks of life. This helped me gather insights into:</p>
+					<ul>
+						<li>The demographics of users(age, gender, occupation</li>
+						<li>Frequency of shopping online</li>
+						<li>Other shopping apps used and their favourite(if any)</li>
+						<li>Category of products usually purchased</li>
+						<li>Problems faced by them using Amazon app</li>
+						<li>Whether they rely on reviews on the app or research about the product elsewhere</li>
+						<li>Whether users wanted an update in the app interface</li>
+					</ul>
+				
+			<h3>Interviews-</h3>
+				<p>Apart from focussed preliminary data obtained via surveys, it was also important to interview few users, to collect elaborate data regarding the app. The five selected users were chosen such that they were well acquainted with the app and/or frequent users. They however belonged to different walks of life and different age groups.</p>
+				
+			<h3>Observation-</h3>
+				<p>This was also important in order to learn about the users, as it helps to unfathom data which the users may not be able to vocalize or express. In this process, users were observed while they actually used the app and notes were made. For each of these following methods, a frequent user and a first-time user was asked to use the app.</p>
+					<ol>
+						<li>Users were observed as they aimlessly browsed the app and carried out any task they like, for example, wishlisting an item, searching for a specific product or buying a product. As they did so, I made notes about what they were saying or doing all the way and also added comments about their expressions and frustrations.</li>
+						<li>Users were given a specific task to carry out and the time taken to carry out the task(if they could) was noted down. Next they were also interviewed to learn about their pain points and feedback about the app.</li>
+					</ol>
+				
+			<h3>Real Use Data</h3>
+				<p>In order to get an unbiased data regarding the actual use of the app worldwide, I also made a bit of research on the web. I collected various statistics and trends from various resources to aid me in the further UX process. Some findings:</p>
+					<ul>
+						<li>App users account for approximately 42% of Amazon’s smartphone visits, while visits to Amazon.com make up the other 58%</li>
+						<li>App users take almost 85% of the mobile time spent with Amazon.</li>
+						<li>Amazon's app users spent 12.8 billion minutes per month in the Amazon app in 2018, on average, giving the firm far more opportunities to make sales than mobile browser users, who averaged 2.4 billion minutes on the site.</li>
+						<li>Amazon had over 162 million unique mobile browser visitors in December 2018 to the app’s 122 million.<br>
+							<cite>-Business Insider,</cite> Mobile app users are key to Amazon's Success</li>
+					</ul>
+				
+		<h2>Analysing Data from User Research</h2>
+		<p>In order to analyse the data obtained from my findings by evaluating the app interfaces and the data obtained by surveying, interviewing and observing users, I used the methods of card sorting and creating User Personas to learn about an average user's goals and pain points. Also, in this step I had to prioritise issues according to user feedback, in order to narrow down the scope of work, because taking care of all grievances of users seemed impossible. Following were some important findings: </p>
+		<ul>
+			<li>Too much clutter results in poor navigation.</li>
+			<li>Unnecessary and least-used features(like camera feature) make the interface crowded</li>
+			<li>Unecessary app screens(like Login/Create an Account) waste user's time and make the interface confusing</li>
+			<li>No theme is maintained in the interface design- Too many colours appear distracting</li>
+			<li>The interface design should be classy, clean and minimal.</li>
+			<li>Common and frequently-used features aren't given importance, like the Categories of Products on the first screen or the Buy Now option while checking out.</li>
+			<li>Filter menu should have more relevant options like Price Range, Brand and some related to individual product specifications</li>
+			<li>Layout of payment and address options can also be improved</li>
+			<li>There should be provision for guest-checkout, allowing a first-time user to place an order by simply entering his address without creating an account.</li>
+			<li>There should be an option to confirm/cancel order before finally placing order, to check all details regarding the order at one place.</li>
+		</ul>
+		<h2>Low Fidelity Prototyping</h2>
+		<p>I began with sketching some of the screens, which needed to be changed. Then I proceeded to wireframing them, before jumping to high-fidelity prototyping. There were four major points I kept in mind from this stage onwards:</p>
+		<ul>
+			<li>To make the UI minimal</li>
+			<li>To ensure that the look and feel is consistent throughout the app</li>
+			<li>To simplify the checkout process</li>
+			<li>To simplify the product search process- Avoid clutter</li>
+		</ul>
+		<h3>Wireframing</h3>
+		<p>At the end of this stage, the layout was almost finalised after obtaining feedback from users of the app. The UI was monochrome, images were avoided and real icons(monochrome) were used. Check some of the wireframes below.</p>
+	</div>
+		<figure>
+			<img src="images/azwf1.png" alt="wireframe set1"><br><br>
+			<img src="images/azwf2.png" alt="wireframe set2" style="padding-bottom: 2%">
+			<figcaption>Wireframes for the app</figcaption>
+		</figure>
+	</main>
+	<footer id="contact">
+		<!-- particles.js container --> 
+		<div id="particles-js"></div>
+		<!-- stats - count particles --> 
+		<div class="count-particles"> 
+			<span class="js-count-particles"></span> 
+		</div> 
+		<div class="contact">
+			<h3>Let's connect &amp; create.</h3>
+			<p>Swing by for a cup of coffee, or leave me a message.</p>
+			<a href="mailto:shreelekha199@gmail.com" class="button">Mail me</a>
+		</div>	
+		<div class="copyright">&#169; 2020 This site has been designed and developed by me!</div> 		
+	</footer>
+
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+	</script>
+</body>
+</html>

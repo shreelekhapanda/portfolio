@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="SHS-S-logo-redrawn-K-and-white-fill.png">
+	<link rel="stylesheet" type="text/css" href="stylefolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	  <!-- JS, Popper.js, and jQuery -->
+	  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<title>iSWITCH- Intelligent Switchboard Solutions</title>
+	  <style type="text/css">
+	    a:hover {
+	      text-decoration: none;
+	    }
+	  </style>
+</head>
+<body>
+	<header>
+    <div class="w3-top">
+      <div class="w3-white w3-card" id="myNavbar" style="padding-left: 10%; box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2)">
+        <a href="home.html" class="w3-bar-item w3-button w3-wide">SHREELEKHA</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small" style="padding-right: 10%">
+          <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-button" title="Notifications"><i class="fa fa-th"></i> WORKS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+            <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+            <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          	<a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+            <a href="others.html" class="w3-bar-item w3-button">Others</a>
+          </div>
+        </div>
+          <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button" style="color: white">WORKS&nbsp; <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+          <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          <a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+          <a href="others.html" class="w3-bar-item w3-button">Others</a>
+        </div>
+      </div>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+  </header>
+	<main>
+		<img src="images/iswitch.png" alt="A smart device to replace switchboards at your home or workplace"> <br><br>
+		<div class="trip">
+			<div class="container">
+		      <div class="row">
+		        <div class="col-md-8 col-xs-6">
+		        	<h4>OVERVIEW</h4>
+					<p>As part of the project, I have developed the concept of a fully digital and touchscreen Switchboard as an alternative for the conventional switch boards which have several disadvantages, such as the agony behind memorizing the different switches of different appliances, the time spent in trial and error methods to find out the controls, etc. The final prototype was designed by me after going through an extensive and detailed Design cycle procedure.</p>
+					<div class="experience">
+		            <blockquote>
+		                <p>It's been 20 years I moved into my new home. It's funny how I still get confused every time... You know, guessing which is the light switch or which is the fan switch!" -Mrs. Naira, 52</p>
+		            </blockquote>
+		            <blockquote>
+		                <p>I remember this... back in school, everytime I went there (switchboard) to switch on/off a light/fan, my friends would be shouting from behind <i>'Arre left waala.. uske right waala switch... pehla waala'</i> and all! -Raghav, 21</p>
+		            </blockquote>
+		    		</div>		          
+		        </div>
+		        <div class="col-md-4 col-xs-6">
+		        	<img src="images/switch.png" alt="A conventional Switchboard">
+		        	<figcaption>A conventional Switchboard</figcaption>
+		        </div>
+		      </div>
+		  	<h2>Project Methodology</h2>
+			<figure style="text-align: center">
+				<img src="images/process1.png" alt="Stepwise representation of the Project Methodology" style="max-width: 600px">
+			</figure>
+
+		      <div class="row">
+		      	<div class="col-lg-9 col-md-8">
+		      		<h2>Defining the Problem</h2>
+		      		<p>Allow me to make you understand the problem better, before I talk about my proposed solution. <br> <br> Look at the pictures. First is a living room with two ceiling fans. Then you see a conference room with too many lights. We all must have been to places similar to the images shown below. What do you find in common? <br> <br>Multiple electrical appliances. It’s not tough to guess that there must be a switch board in the room, similar to the one on the left. You must be very well acquainted with these, which are a common sight in classrooms, conference halls, auditoriums, and even living rooms. You must have tried clicking multiple switches by trial and error to get the correct lights or fans turned on. This is really agonizing.</p>
+		      	</div>
+		      	<div class="col-lg-3 col-md-4">
+		      		<img src="images/room1.png" alt="Picture of a room with multiple electrical appliances">
+		      		<img src="images/room2.png" alt="Another Picture of a room with multiple electrical appliances">
+		      	</div>
+		      	
+		      </div>
+		      <div class="row">
+		      	<h2>Analysis of Existing Products</h2>
+		      	<p>As part of this process, I analysed the features of conventional switch boards, its disadvantages; the existing alternatives and their shortcomings as well.</p>
+		      	<h3>Conventional Switchboard</h3>
+		      	<ul>
+		      		<li>Good for smaller rooms(preferably at home), with less appliances.</li>
+					<li>Not good for rooms meant for public, like classrooms or meeting halls/ auditoriums.</li>
+					<li>Risk of electric shocks</li>
+					<li>Need for remembering switches.</li>
+					<li>Trial and error method required to guess switches for any appliance</li>
+					<li>Require you to call an electrician when there is addition/ removal of appliances and hence requires manipulation of switches.</li>
+					<li>Not time efficient, though cheap </li>		      		
+		      	</ul>
+		      	<h3>Mobile/Web Smart Home Apps</h3>
+		      	<ul>
+		      		<li>Many apps like Samsung Smart Home, Google Home, Smart Home Solution, Smart Home, etc. already available in the PlayStore.</li>
+					<li>User ratings is not appreciable.</li>
+					<li>As suggested by the names, these are usually for HOME; and can’t be controlled by guests </li>
+					<li>Also, can’t be of any use in public-purpose rooms</li>
+					<li>Good for limited number of appliances</li>
+					<li>Requires ‘Smart Appliances’ (like Smart LED bulbs, etc.) which can be connected to the Apps which implies, extra expenditure.</li>
+		      	</ul>
+		      </div>
+		      <div class="row">
+		      	<div class="col-md-4">
+		      		<img src="images/app1.png" alt="Screenshot of a smart-home app">
+		      	</div>
+		      	<div class="col-md-4">
+		      		<img src="images/app2.png" alt="Screenshot of a smart-home app">
+		      	</div>
+		      	<div class="col-md-4">
+		      		<img src="images/app3.png" alt="Screenshot of a smart-home app">
+		      	</div>
+		      </div>
+		      <div class="row">
+		      	<div class="col-md-8">
+		      		<h3>Remote-controlled Devices</h3>
+		      		<ul>
+		      			<li>Expensive
+						<li>Can’t operate conventional devices,normal fans or lights; which requires you to buy new appliances
+						<li>Different appliances may require different remotes
+						<li>Memorizing different controls in remotes can be hectic
+						<li>Remote may be misplaced
+						<li>Single remote for a large group of people in a big room doesn’t cater to everyone’s needs.</li>
+		      		</ul>
+		      	</div>
+		      	<div class="col-md-4">
+		      		<img src="images/remote.png" alt="A remote-controlled Switchboard">
+		      	</div>
+		      </div>
+		      <h3>Summary of features</h3>
+		      <div class="table-responsive">
+		      	<table class="table table-hover table-bordered">
+		      		<thead>
+		      			<tr>
+		      				<th scope="col">Features</th>
+		      				<th scope="col">Conventional Switch Boards</th>
+		      				<th scope="col">Mobile/Web Smart-home Apps</th>
+		      				<th scope="col">Remote-controlled Devices</th>
+		      				<th scope="col">iSWITCH</th>
+		      			</tr>
+		      		</thead>
+		      		<tbody>
+		      			<tr>
+		      				<th scope="row">Digital</th>
+		      				<td>No</td>
+		      				<td>Yes</td>
+		      				<td>Depends</td>
+		      				<td>Yes</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Touchscreen</th>
+		      				<td>No</td>
+		      				<td>Yes</td>
+		      				<td>Depends</td>
+		      				<td>Yes</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Flexibility</th>
+		      				<td>Can operate on any device</td>
+		      				<td>Operates only Smart Appliances</td>
+		      				<td>Depends on the type of appliance</td>
+		      				<td>Can operate on any device</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Price</th>
+		      				<td>Cheap</td>
+		      				<td>Free(but requires expensive smart devices)</td>
+		      				<td>Costly</td>
+		      				<td>Moderate</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Manual/Automatic</th>
+		      				<td>Manual</td>
+		      				<td>Fully Automatic</td>
+		      				<td>Semi-Automatic</td>
+		      				<td>Semi-Automatic</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Usage</th>
+		      				<td>Anywhere</td>
+		      				<td>Usually for homes</td>
+		      				<td>Usually anywhere</td>
+		      				<td>Anywhere</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Reachability</th>
+		      				<td>Depends on size of room, distance from user</td>
+		      				<td>Easy and free acess</td>
+		      				<td>Not great (Remote can get lost!)</td>
+		      				<td>Easy access, made better using apps</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Appliance Support</th>
+		      				<td>Multiple</td>
+		      				<td>Depends on app (can be one to many)</td>
+		      				<td>Fewer (often singular)</td>
+		      				<td>Multiple</td>
+		      			</tr>
+		      			<tr>
+		      				<th scope="row">Interface</th>
+		      				<td>Confusing/ Messy</td>
+		      				<td>Less Confusing (Might be difficult for elderly)</td>
+		      				<td>Simpler</td>
+		      				<td>Very Simple</td>
+		      			</tr>
+		      		</tbody>		      			
+		      	</table>	<br><br>	      	
+		      </div>
+		      <h2>User Research</h2>
+		      <p>This was the most crucial stage of this project, in order to ensure that my understandings were in line with perspective users, and also to discover more findings to help me define the features of the new product. <br><br> Below are some of the findings from the preliminary Online-Survey.</p>
+		      <div class="row">
+		      	<div class="col-md-7">
+		      		<img src="images/graph1.png">
+		      	</div>
+		      	<div class="col-md-5">
+		      		<img src="images/graph3.png">		      		
+		      		<img src="images/graph2.png">
+		      	</div>
+		      	<div class="col-md-6 graph">
+		      		<img src="images/graph4.png">
+		      	</div>
+		      	<div class="col-md-6 graph">
+		      		<img src="images/graph5.png">
+		      	</div>
+		      	<div class="col-md-6 graph">
+		      		<img src="images/graph6.png">
+		      	</div>
+		      	<div class="col-md-6 graph">
+		      		<img src="images/graph7.png">
+		      	</div>
+		      </div>  
+		      <h3>User Personas</h3> 
+		      <p>I developed two personas to understand better the benefits and the need of a device like iSWITCH.</p>	
+		      <figure style="text-align: center">
+				<img src="images/switchpersona1.png" alt="Defining User Personas">
+			  </figure>
+		      <h2>Defining Product Objectives</h2>
+		      <p>After my research of the existing products (and its alternatives) and analysis of data collected from the preliminary survey, I was to define why iSWITCH is better than its competitors</p>
+		      <ul>
+		      	<li>First in the field to incorporate ceiling’s/room’s graphical layout in the interface</li>
+				<li>Easily visible controls, no need to memorize</li>
+				<li>Touch-sensitive interface</li>
+				<li>Good for home as well as any public-purpose rooms (auditoriums, class rooms)</li>
+				<li>Can incorporate any number of appliances</li>
+				<li>Time efficient</li>
+				<li>No risk of electric shocks</li>
+				<li>Doesn’t require you to buy new devices/ appliances. Works well with Smart or otherwise appliances</li>
+				<li>Can also be controlled by visitors and guests</li>
+				<li>No extra expenditure- one-time installation in place of a conventional switch-board.</li>
+				<li>Shows status of devices (ON/OFF)</li>
+				<li>Can be linked to Apps or remotes</li>
+		      </ul>
+		      <p><i>To sum it, the main objective was to develop the concept of a switch board which is easy to use, convenient and cheap.</i></p>
+		      <h3>Storyboarding</h3>
+		      <img src="images/switchstory.png" alt="Storyboard">
+		      <figcaption>Storyboard</figcaption>
+
+		      <h2>Prototyping</h2>
+		      <p>After having the product objectives clear in mind, I started sketching out the product interface. Then, I discussed those sketches with my Project supervisor, Prof. B. B. V. L. Deepak, in order to get ideas & feedback, while also checking technical feasibility. <br><br> 
+		      <p>Below is the earliest prototype, made using Adobe Photoshop. After that, I conducted another round of Survey to get feedback on the design solution, to uncover more about user goals and pain-points</p>
+		      
+		      <img src="images/mock1.png">
+		      <figcaption>Early prototype</figcaption><br>
+
+		      <ul>
+		      	<li>Homescreen of the device shows layout of electrical appliances in the room</li>
+		      	<li>To better understand directions/ locations of appliances, there's an option to select a reference object on one side, like door/ blackboard/ etc.</li>
+		      	<li>Appliances can be switched on/off with a click</li>
+		      	<li>Sliding across the screen can give an isometric view of the room, with other appliances like fridge, oven etc</li>
+		      	<li>The appliances which are turned on are brighter and the other appliances are dimmed out.</li>
+		      </ul>
+
+		      <p>After showing the prototype to some perspective users, belonging to different age groups, I arrived at the following:</p>
+		      <ul>
+		      	<li>To include an app, so that the device can be controlled from a distance, or while being away from home. (The device can't always lie within the reach of users, their mobile can, though.)</li>
+		      	<li>To add a few more (not many, though, which would create clutter) features to make the device interesting</li>
+		      	<li>To work on aesthetics</li>
+		      	<li>To add controls like fan speed, light intensity</li>
+		      </ul>
+
+		      <div class="row">
+		      	<div class="col-lg-6">
+		      		<img src="images/mock2.png" alt="Second Phase of Prototyping- Homescreen">
+		      	</div>
+		      	<div class="col-lg-6">
+		      		<img src="images/mock3.png" alt="Second Phase of Prototyping- Settings">
+		      	</div>
+		      </div>
+		      <figcaption>Second Phase of Prototyping</figcaption>
+
+		      <h2>The App</h2>
+		      <p>Utilizing data from the research done earlier, I also designed the UI of a smart-home app, which would complement the device.</p>
+		</div>
+	</div>
+		<img src="images/app.png" alt="The iSWITCH mobile app">
+		<div class="trip">
+		      <h2>Conclusion</h2>
+		      <p>This Digitized, Touchscreen Switchboard is a revolutionary idea, which promises to solve the problem of many users. As part of this 3 months-long project, I did extensive user research, product research & market research. At the end, I was able to arrive at the design solution, i.e., the final prototype. I also discussed with concerned engineers regarding the technical feasibility of the product. <b>The actualization of the product is now under way,</b> thanks to some generous, intelligent friends of mine. <br><br>
+		      Thanks for stopping by!</p>
+		</div>
+	
+	</main>
+
+	<div id="preloader"></div>
+
+	  <!-- Vendor JS Files -->
+	  <script src="assets/vendor/jquery/jquery.min.js"></script>
+	  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	  <script src="assets/vendor/php-email-form/validate.js"></script>
+	  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	  <script src="assets/vendor/counterup/counterup.min.js"></script>
+	  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	  <script src="assets/vendor/venobox/venobox.min.js"></script>
+	  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	  <script src="assets/vendor/typed.js/typed.min.js"></script>
+	  <script src="assets/vendor/aos/aos.js"></script>
+
+	  <!-- Template Main JS File -->
+	  <script src="assets/js/main.js"></script>
+
+	<footer id="contact">
+		<!-- particles.js container --> 
+		<div id="particles-js" style="background-color: #165052"></div>
+		<!-- stats - count particles --> 
+		<div class="count-particles"> 
+			<span class="js-count-particles"></span> 
+		</div> 
+		<div class="contact">
+			<h3>Let's connect &amp; create.</h3>
+			<p>Swing by for a cup of coffee, or leave me a message.</p>
+			<a href="mailto:shreelekha199@gmail.com" class="button">Mail me</a>
+		</div>			
+		<div class="copyright">&#169; 2020 This site has been designed and developed by me!</div> 
+	</footer>
+
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+	</script>
+</body>
+</html>

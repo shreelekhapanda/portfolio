@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="SHS-S-logo-redrawn-K-and-white-fill.png">
+	<link rel="stylesheet" type="text/css" href="stylefolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<title>More Designs by me</title>
+  <style type="text/css">
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+	<header>
+		<div class="w3-top">
+      <div class="w3-white w3-card" id="myNavbar" style="padding-left: 10%; box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2)">
+        <a href="home.html" class="w3-bar-item w3-button w3-wide">SHREELEKHA</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small" style="padding-right: 10%">
+          <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-button" title="Notifications"><i class="fa fa-th"></i> WORKS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+            <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+            <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+            <a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+            <a href="others.html" class="w3-bar-item w3-button">Others</a>
+          </div>
+        </div>
+          <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button" style="color: white">WORKS&nbsp; <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="amazon.html" class="w3-bar-item w3-button">Amazon</a>
+          <a href="vacayfy.html" class="w3-bar-item w3-button">Vacayfy</a>
+          <a href="iswitch.html" class="w3-bar-item w3-button">iSWITCH</a>
+          <a href="others.html" class="w3-bar-item w3-button">Others</a>
+        </div>
+      </div>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+	</header>
+	<main>
+		<div class="others">
+			<h1>Redesigning the UI of popular webpages is really fun!</h1><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/fcruz.png">
+          <figcaption>Redesigning the Website UI of FunCruises, Goa</figcaption><br><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/fcruz1.png">
+          <figcaption>Carousel Landing Page for FunCruises //2</figcaption><br>
+        </div>
+        <div class="col-md-6">
+          <img src="images/fcruz2.png">
+          <figcaption>Carousel Landing Page for FunCruises //3</figcaption><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/fcruz3.png"  style="box-shadow: 0px -5px 10px 2px rgba(0,0,0,0.1); border-radius: 10px">
+          <figcaption>Redesigning the Pricing Page Interface of FunCruises</figcaption><br>
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/fcruz4.png" style="border-radius: 10px; box-shadow: 0px -6px 10px 2px rgba(0,0,0,0.1)">
+          <figcaption>Redesigning the Blog & Footer Section for FunCruises</figcaption><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/geeks.png">
+          <figcaption>Redesigning the Landing Page Interface of Geeks for Geeks</figcaption><br>
+        </div>        
+      </div>
+    </div>
+  </div>
+	</main>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+	<footer id="contact">
+		<!-- particles.js container --> 
+		<div id="particles-js" style="background-color: #165052"></div>
+		<!-- stats - count particles --> 
+		<div class="count-particles"> 
+			<span class="js-count-particles"></span> 
+		</div> 
+		<div class="contact">
+			<h3>Let's connect &amp; create.</h3>
+			<p>Swing by for a cup of coffee, or leave me a message.</p>
+			<a href="mailto:shreelekha199@gmail.com" class="button">Mail me</a>
+		</div>	
+    <div class="copyright">&#169; 2020 This site has been designed and developed by me!</div> 		
+	</footer>
+
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script>
+		particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+	</script>
+
+</body>
+</html>
