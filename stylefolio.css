@@ -288,22 +288,32 @@ main img{
   color: #8c8c8c;
 }
 
+
 .trip h2{
   text-align: left;
   font-family: "Calisto MT Bold","Serif";
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 4.5vh;
 }
 
 .trip h3{
   font-family: "Segoe UI Regular", Helvetica, Arial,"sans-serif", "Lato", "Roboto";
-  font-size: 24px;
+  font-size: 3vh;
   color: #5f5f5f;
   padding-bottom: 2%;
   text-align: left;
   font-weight: bolder;
   margin-bottom: -2px;
 }
+
+.trip p{
+  font-size: 16px;
+}
+
+.trip li{
+  font-size: 16px;
+}
+
 
 
 .trip a{
