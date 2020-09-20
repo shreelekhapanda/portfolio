@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="stylefolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	  <!-- JS, Popper.js, and jQuery -->
+	  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<title>Cardbyte: All your contacts at one place</title>
+	  <style type="text/css">
+	    a:hover {
+	      text-decoration: none;
+	    }
+	  </style>
+</head>
+<body>
+	<header>
+
+  </header>
+
+	<main>
+    <img src="images/cbhead.png" alt="All your contacts at one place"> <br><br>
+    <div class="trip">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-6">
+            <h4><br>OVERVIEW</h4>
+            <p>This project was undertaken by me as part of my summer internship with <b>Liberin Technologies Pvt. Ltd.</b> It was a 4-months long enthralling experience of working amongst amazing team of product designers, illustrator, developers and business personnel. As per the client requirement, our task was to design and develop an app which made sharing of digital business cards simpler and easier. Pertaining to the present pandemic situation, this was an amazing idea to go digital and completely avoid physical contact which was a mandatory occurence in sharing physical business cards.</p>
+          </div>
+
+          <div class="col-md-4 col-xs-6">
+            <img src="images/liberin.png" alt="Liberin Technologies"><br>
+          </div>
+        </div><br>
+
+        <h2>Preliminary Study</h2>
+        <p>Let’s have a look at some stats to get an insight into the business card industry and understand why digital cards are a better alternative.</p>
+
+          <div class="row row-content align-items-center">
+            <div class="col-md-5">
+              <img src="images/card1.png">
+            </div>
+            <div class="col-md-7">
+              <b>Too Many Cards</b><br>
+              Number of cards daily printed — 27.4 Million<br>
+
+              Number of business cards printed in the U.S. annually — 10 Billion<br><br>
+              <b>Very Small Benefit</b><br>
+              Sales increase of a company for every 2000 paper cards passed out — 2.5%<br>
+
+              Cards thrown out in less than a week — 88%<br>
+
+              People who threw a card away because they don’t need the service at the moment — 63%<br>
+
+              People who add business info into a digital list — 9%
+            </div>
+          </div><br><br>
+
+          <div class="row row-content align-items-center">
+            <div class="col-md-7">
+              <b>Big Amount of Money</b><br>
+              Business card printing industry revenue in the US annually — $ 798.6 Million<br>
+
+              Average spent nationally on a set of business cards including design and printing — $194<br><br>
+
+              <b>A lot has been Changed</b><br>
+              At first, the use of the business card was done in China in the 15th century.<br>
+              18% of the people still exchange paper business cards when meeting someone.<br>
+              224.3 Million Americans had already a smartphone by 2017.<br>
+              35% of the people now store their contacts “somewhere on their phone”.<br>
+            </div>
+            <div class="col-md-5">
+              <img src="images/card2.jpg">
+            </div>
+          </div><br><br>
+
+          <div class="row">
+            <div class="col-12">
+              <b>Advantages of Digital Cards</b><br>
+              <ul>
+                <li>Digital Business cards help to engage people professionally and efficiently.</li>
+                <li>In developed countries, nearly 68% of small and medium businesses believe that digital presence helps them in customer acquisition, which shows the future is digital and this includes business cards as well. </li>
+                <li>Helps save the cost of printing a large number of physical cards</li>
+                <li>Digital Cards are an effective way of sharing contacts in the post-pandemic era, where people are socially distanced.</li>
+                <li>Thousand of trees are uprooted to print business cards! Digital card is an eco-friendly solution.</li>
+
+            </div>
+          </div>
+
+        <h2>User Stories</h2>
+        <p>The following user stories were drafted at the end of an extensive brainstorming procedure with the design team, along with inputs from the client. This was also validated by the results obtained at the end of user and market research. These helped us to define the major goals and expectations of the app, and further layout the task flow.</p>
+        <div class="offset-md-1 col-md-10 overflow-auto" style="max-height: 500px; background-color: #E2E6F0">
+          <div class="epic">(A) Epic: User can Sign Up into the CardByte mobile application
+            <div class="childepic">
+              <ol>
+                <li>
+                  Child Epic: As a CardByte user I should be able to sign-up to the mobile application using my mobile number so that I can register and start using the application.<br>
+                    <u><b>User Stories</b></u><br>
+                      <ul>
+                        <li>As a Cardbyte mobile application user I should be able to view my detected mobile numbers so that I can choose the mobile number so that I can sign-up into the CardByte mobile application </li>
+                        <li>As a Cardbyte mobile application user I should be able to select the mobile number that has to be used for signing-up into the Cardbyte mobile application.</li>
+                        <li>As a Cardbyte mobile application user I can input a mobile number so that I can sign-up into the Cardbyte mobile application.</li>
+                        <li>As a Cardbyte mobile application user I should be able to select the country of the mobile number so that I can sign-up to the Cardbyte mobile application.</li>
+                        <li>As a Cardbyte mobile application user should be able to input the One Time Password so that I can verify the mobile number that has to be used to sign-up to the Cardbyte mobile application.</li>
+                        <li>As a Cardbyte mobile application user I should be able to resend One Time Password after the time-out of the previous OTP session so that I can receive the OTP and enter the OTP to verify my mobile number.</li>
+                      </ul>                    
+                </li>
+                <li>
+                  Child Epic: As a Cardbyte mobile application user I should be able to enter the email ID so that I can sign-up into the Cardbyte mobile application.<br>
+                    <u><b>User Stories</b></u><br>
+                    <ul>
+                      <li>As a Cardbyte mobile application user I should be able to view a list and select from a list of detected email IDs that are available in my mobile phone’s account so that I can select the email ID to sign-up into the Cardbyte mobile application.</li>
+                      <li>As a Cardbyte mobile application user I should be able to enter and set the password used for registration so that I can sign-up into the Cardbyte mobile application.</li>
+                      <li>As a Cardbyte mobile application user I should input the One Time Password so that I can verify the email ID used for signing-up into the Cardbyte mobile application.</li>
+                      <li>As a Cardbyte mobile application user I should be able to resend One Time Password after the time-out of the previous OTP session so that I can receive the OTP and enter the OTP to verify my mobile number.</li>
+                    </ul>
+                </li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to sign-up to the Cardbyte mobile application using Google ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to sign-up to the Cardbyte mobile application using Facebook ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to sign-up to the Cardbyte mobile application using Linkedin ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to sign-up to the Cardbyte mobile application using Twitter ID.</li>
+              </ol>             
+
+            </div>
+          </div>
+          <div class="epic">(B) Epic: User can log in into the CardByte mobile application
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: As a CardByte user I should be able to login to the mobile application using my mobile number so that I can start using the Cardbyte mobile application.<br>
+                <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to view my detected mobile numbers so that I can choose the mobile number so that I can log in into the CardByte mobile application</li>
+                    <li>As a Cardbyte mobile application user I should be able to select the mobile number that has to be used for logging in to the Cardbyte mobile application.</li>
+                    <li>As a Cardbyte mobile application user I can input a mobile number so that I can log in to the Cardbyte mobile application.</li>
+                    <li>As a Cardbyte mobile application user I should be able to select the country of the mobile number so that I can log in to the Cardbyte mobile application.</li>
+                    <li>As a Cardbyte mobile application user should be able to input the One Time Password so that I can verify the mobile number that has to be used to login to the Cardbyte mobile application.</li>
+                    <li>As a Cardbyte mobile application user I should be able to resend One Time Password after the time-out of the previous OTP session so that I can receive the OTP and enter the OTP to verify my mobile number.</li>
+                  </ul>
+                </li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to enter the email ID so that I can log in to the Cardbyte mobile application.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to view a list and select from a list of detected email IDs that are available in my mobile phone’s account so that I can select the email ID to login to the Cardbyte mobile application.</li>
+                    <li>As a Cardbyte mobile application user I should be able to enter the password so that I can log in to the Cardbyte mobile application.</li>
+                  </ul>
+                </li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to log in to the Cardbyte mobile application using my Google ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to log in to the Cardbyte mobile application using my Facebook ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to log in to the Cardbyte mobile application using my LinkedIn ID.</li>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to log in to the Cardbyte mobile application using my Twitter ID.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="epic">(C) Epic: Onboard first time user into the Cardbyte mobile application
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: As a Cardbyte mobile application user I should be able to input the onboarding data so that I can create my profile for the Cardbyte platform.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I want to input my name and optionally alias so that I can add it to my card details.</li>
+                    <li>As a Cardbyte mobile application user I want to input my date of birth so that I can add it to my card details.</li>
+                    <li>As a CardByte mobile application user, I want to choose if the mobile number I used to sign-up to the Cardbyte mobile application should be the same as the one that is added to my card details so that I can have a separate mobile number in my card details.</li>
+                    <li>As a CardByte mobile application user, I want to choose from a list of the mobile numbers detected so that I can add it to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I can verify my mobile number entered that is added to my profile if it is not already verified so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I can add multiple mobile numbers and verify them so that they can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I can choose if the email I used to sign-up to the Cardbyte application should be the same as the one that is added to my card details so that I can have a separate email ID in my card details.</li> 
+                    <li>As a Cardbyte mobile application user, I can choose to verify my email ID entered that is added to my profile if it is not already verified so that it can be added to my card details.</li>
+                    <li>As a CardByte mobile application user, I want to choose from a list of the email IDs detected so that I can add it to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I can add multiple email IDs and verify them so that they can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I can choose to skip the verification of my email ID for later so that I can proceed with the onboarding process.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to input my company name so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to input my designation so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to input my department so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to input my Company Industry/ Service so that I can add it to my profile details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to add a logo from my gallery, camera, or select from suggested logos to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to upload my profile picture to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to add my company address so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to add secondary addresses so that it can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user, I should be able to input my Linked in URL so that I can add it to my card details.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="epic">(D) Epic: Home screen is shown to the CardByte Application user
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: User is a first time CardByte Application user.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to view all my Cardbyte contacts.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view all the Cardbyte mobile application users who have scanned my physical card when I was not a Cardbyte mobile application user.</li>
+                    <li>As a Cardbyte mobile application user I can see all the Cardbyte users in my mobile phonebook contacts so that I can add them to my Cardbyte directory.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+          
+          <div class="epic">(E) Epic: User can search other Cardbyte mobile application users
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: User is searching for a Cardbyte mobile application user.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his name.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his company name.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his designation.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his Industry Vertical.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his email.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on the event name where I received the user’s card details.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his event geolocation.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user based on his hashtag.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user using hybrid terms.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view search suggestions as soon as I start typing the query.</li>
+                    <li>As a Cardbyte mobile application user I should be able to search any cardbyte user and view search suggestions from different categories.</li>
+                    <li>As a Cardbyte mobile application user I should be able to select any search suggestion.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view all the search results based on the selected search suggestion.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view local search results with local search results shown first.</li>
+                    <li>As a Cardbyte mobile application user I should be able to global search results.</li>
+                    <li>As a Cardbyte mobile application user I should be able to sort my search results alphabetically (A-Z or Z-A).</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(F) Epic: Sharing options is shown to the CardByte Application user
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: User can share his card details with other Cardbyte users.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to share my card details online with another CardByte mobile application user.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view offline sharing options to share my details with another Cardbyte application user when in offline mode.</li>
+                    <li>As a Cardbyte mobile application user I should be able to share my Cardbyte details using bluetooth.</li>
+                    <li>As a Cardbyte mobile application user I should be able to share my Cardbyte details using QR code.</li>
+                    <li>As a Cardbyte mobile application user I should be able to scan a QR code of another Cardbyte mobile application user to receive his/her card details.</li>
+                    <li>As a Cardbyte mobile application user I should be able to share my Cardbyte details using common sharing intents.</li>
+                    <li>As a Cardbyte mobile application user I will be asked to enable my GPS once before initiating sharing.</li>
+                    <li>As a Cardbyte mobile application user, on receiving a card from another Cardbyte mobile application user I will be given an option to share my card details with the sender.</li>
+                    <li>As a Cardbyte mobile application user I should be able to get an acknowledgement as soon as I share my card details with another Cardbyte application user in an online mode.</li>
+                    <li>As a Cardbyte mobile application user I should be able to view the list of all people who scanned my QR code and I should also be able to view their details based on their privacy settings.</li>
+                    <li>As a Cardbyte mobile application user I should be able to print my QR code so that I can place it in any event/expo for public sharing.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(G) Epic: Suggest to mark an event and geo-tag the event
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: As a CardByte mobile application user I should be able to get a suggestion to mark an event if I have scanned or added 10 (x) number of cards within 1(x) number of hours so that I can search my cards based on an event</li>
+                <li>Child Epic: As a CardByte mobile application user I should be able to geo-tag an event so that I can search cards based on a location.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(H) Epic: CardByte Privacy Settings
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: Lock Profile On (COMPLETE PRIVACY): ON/OFF <br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>Only you can send cards</li>
+                    <li>You will not appear in public search</li>
+                    <li>Your contacts cannot be introduced to other users.</li>
+                  </ul>
+                </li>
+                <li>Child Epic: Lock Profile Off:<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>Please set your search preferences(Slider): Globally searched, Search by mutual contacts, not searchable </li>
+                    <li>Let your contacts introduce you to other users. YES/NO</li>
+                    <li>Request my permission to add me to their contact list. YES/NO</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(I) Epic: Receive mail notification for a non-CardByte user<br>
+            <b><u>User Stories</u></b><br>
+              <ul>
+                <li>Child Epic:  As a non-CardByte user I should receive an Email notification when someone scans my card and adds my card details to his CardByte contacts.</li>
+              </ul>
+          </div>
+
+          <div class="epic">(J) Epic: Scan physical Cards to add to Cardbyte directory
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: Scan physical business cards from mobile camera<br>
+                  <b><u>User Story</u></b><br>
+                  <ul>
+                    <li>As a CardByte mobile application user I should be able to scan a physical business card from the mobile camera and get the Name, Company name, Designation, Company address, mobile number so that I can add card details to my CardByte directory.</li>
+                  </ul>
+                </li>
+                <li>Child Epic: Scan physical business cards from mobile gallery<br>
+                  <b><u>User Story</u></b><br>
+                  <ul>
+                    <li>As a CardByte mobile application user I should be able to scan a physical business card from my mobile phone gallery and get the Name, Company name, Designation, Company address, mobile number so that I can add card details to my CardByte directory.</li>
+                  </ul>
+                </li>
+                <li>Child Epic: Check and Synchronize physical card details if the same exists in the CardByte global directory.<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to check and view if the physical business card I had scanned already exists in the global Cardbyte directory so that I can add the digital Cardbyte card details to my Cardbyte directory.</li>
+                    <li>As a Cardbyte mobile application user I should be able to add or send a request to the Cardbyte user to add his details depending on his privacy settings so that I can add the Cardbyte user.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(K) Epic: Modify profile
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: Modify mobile number used to register</li>
+                <li>Child Epic: Modify email ID used to register</li>
+                <li>Child Epic: Modify other profile details<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I  should be able to add additional mobile numbers so that multiple mobile numbers can be added to my card details.</li>
+                    <li>As a Cardbyte mobile application user I should be able to add additional addresses and mark the address type (registered office address, corporate office, HO address etc.) so that I can add multiple addresses to my Cardbyte card details.</li>
+                    <li>As a Cardbyte mobile  application user I should be able to modify my Linkedin URL</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my company’s logo</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my profile image</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my Company name.</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my Designation.</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my department.</li>
+                    <li>As a Cardbyte mobile application user I should be able to modify my industry vertical.</li>
+                    <li>As a Cardbyte mobile application user I should be able to send notifications to other users who have me in their Cardbyte directory whenever I update my Company name, designation, or department.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="epic">(L) Epic: Purchase Subscription
+            <div class="childepic">
+              <ol>
+                <li>Child Epic: Subscribe to Cardbyte subscription<br>
+                  <b><u>User Stories</u></b><br>
+                  <ul>
+                    <li>As a Cardbyte mobile application user I should be able to use the application in free trial tier.</li>
+                    <li>As a Cardbyte users I should be able to pay for the paid subscriptions of Cardbyte application platform to avail more benefits.</li>
+                  </ul>                  
+                </li>
+              </ol>
+            </div>
+          </div>
+
+        </div><br><br>
+
+        <h2>User Personas</h2>
+        <p>As next step of the User Research Analysis, we developed four different user personas who are likely to use the app. This included unemployed youth, busy leaders, managerial personnel and retired seniors.</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/cbp1.png">
+          </div>
+          <div class="col-md-6">
+            <img src="images/cbp2.png">
+          </div>
+          <div class="col-md-6">
+            <img src="images/cbp3.png">
+          </div>
+          <div class="col-md-6">
+            <img src="images/cbp4.png">
+          </div>
+        </div><br><br>
+
+        <h2>Information Architecture</h2>
+        <p>This was the final user flow diagram or the information architecture decided at the end of the User research.</p>
+
+      </div>
+    </div>
+
+    <figure>
+        <img src="images/iacb.png">
+        <figcaption>User-flow diagram</figcaption>
+    </figure>
+
+    <div class="trip">
+      <div class="container">
+        <h2>Branding</h2>
+        <div class="row row-content align-items-center">
+          <div class="col-md-7">
+            <p>There were two major objectives of this Visual Design or Branding phase.</p>
+              <ul>
+                <li><u>Decide upon the color palette:</u><br>The colors were selected keeping in mind that the app would be used by varying group of users, and also permits customization.</li>
+                <li><u>Design the app logo:</u><br>Keeping in mind the client requirements, we needed to design the brand identity which was minimal, has a 3D look and feel and incudes the element card and letters C and B.</li>
+              </ul>               
+          </div>
+          <div class="col-md-5">
+            <figure>
+              <img src="images/logos.png">
+              <figcaption>Logo explorations</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <figure>
+              <img src="images/cblogo.png">
+              <figcaption>Selected Logo Design Concept and Color Palette</figcaption>
+            </figure>
+          </div>
+        </div> 
+
+        <h2>Low-fidelity Prototyping</h2>
+        <h2>High-fidelity Prototyping</h2>
+        <h2>Present Status and Conclusion</h2>
+        <p>Currently, the app screens designed in Adobe XD are converted into Zeplin and Flutter files and forwarded to the development team who are developing it using Flutter. The present focus is on the starter plan, excluding the premium version which requires subscription. Based on the real usage data of the app, the premium features are intended to be rolled out soon. Also, the design team is still working on the visual design of 'card customization' UI to make it more interactive and simpler to use.<br><br>As a metric of success of our venture, we had laid our objective that users would prefer Cardbyte over (i) Physical Business Cards and (ii) Contacts app, Whatsapp, etc. for sharing/saving professional contacts. And we found out that over 90% users would prefer digital, customizable cards over Physical Business Cards. For the second objective, even though users were enthusiastic about a separate app for professional contacts, we have to see for ourselves, the real app usage.<br><br>This was my first experience of working in a team of designers, developers among others to design a product that would be rolled out in the real world. It was quite a learning phase for me. I would definitely admit that my knowledge of design tools, analytical methods and user research processes was strenghtened at the end of the internship and I am thankful to Liberin Technologies for the opportunity.<br><br>Hope you liked my work! Thank you!</p>
+      </div>
+    </div>
+
+	</main>
+
+	<div id="preloader"></div>
+
+	  <!-- Vendor JS Files -->
+	  <script src="assets/vendor/jquery/jquery.min.js"></script>
+	  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	  <script src="assets/vendor/php-email-form/validate.js"></script>
+	  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	  <script src="assets/vendor/counterup/counterup.min.js"></script>
+	  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	  <script src="assets/vendor/venobox/venobox.min.js"></script>
+	  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	  <script src="assets/vendor/typed.js/typed.min.js"></script>
+	  <script src="assets/vendor/aos/aos.js"></script>
+
+	  <!-- Template Main JS File -->
+	  <script src="assets/js/main.js"></script>
+
+	<footer>
+		
+	</footer>
+
+	
+</body>
+</html>
