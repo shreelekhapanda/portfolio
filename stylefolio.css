@@ -491,3 +491,42 @@ main img{
     transition-delay: 0 !important;
   }
 }
+
+
+.cbfooter {
+  color: #606060;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 12vh;
+}
+
+.cbmain {
+  margin-top: 5%;
+}
+
+.cbmain h1{
+  color: #818181;
+  font-size: 2.5vh;
+  letter-spacing: 4px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.cbmain p {
+  color: black;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.cbhead img {
+  width: 100%;
+}
+
+.epic {
+  margin-top: 2%;
+  margin-left: 2%
+}
+
+.childepic {
+  margin-left: 4%
+}
